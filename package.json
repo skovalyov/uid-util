@@ -1,0 +1,37 @@
+{
+  "name": "uid-util",
+  "version": "0.0.1",
+  "description": "a simple method to create UIDs (unique identifiers)",
+  "keywords": [
+    "uid",
+    "uuid",
+    "guid"
+  ],
+  "homepage": "https://github.com/skovalyov/uid-util",
+  "bugs": {
+    "url": "https://github.com/skovalyov/uid-util/issues"
+  },
+  "author": {
+    "name": "skovalyov",
+    "url": "http://skovalyov.github.com/"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script",
+    "prepublish": "coffee -o lib -c src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skovalyov/uid-util.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "~1.4.0",
+    "mocha": "~1.8.1",
+    "should": "~1.2.1"
+  },
+  "engines": {
+    "node": "> 0.4.1"
+  }
+}
