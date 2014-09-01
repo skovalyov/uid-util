@@ -1,6 +1,6 @@
 {
   "name": "uid-util",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "a simple method to create UIDs (unique identifiers)",
   "keywords": [
     "uid",
